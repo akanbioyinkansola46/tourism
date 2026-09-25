@@ -8,3 +8,230 @@
 body{
     
 }
+.first{
+    background-image: url(./images/Rectangle\ 4.png);
+    height: 630px;
+    width: 100%;
+    object-fit: cover;
+}
+header{
+display: flex;
+justify-content: end;
+
+nav{
+/* border: 2px solid black; */
+border-radius: 35px;
+background-color: #715339;
+height: 70px;
+width: 95%;
+margin-top: 20px;
+gap: 30px;
+}
+}
+nav a{
+    text-decoration: none;
+    padding: 20px 10px 20px 10px;
+    color: #fff;
+    /* text-align: center; */
+    
+}
+.first-text{
+margin:0 70px ;
+width: 50%;
+margin-top: 120px;
+}
+.first-text h3{
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+}
+.first-text h1{
+    color: #fff;
+    font-weight: 600;
+    font-size: 45px;
+    margin-top: 10px;
+}
+.first-text p{
+    color: #fff;
+        margin-top: 10px;
+}
+.first-text a{
+    color: #fff;
+    /* border: 2px solid red; */
+    border-radius: 30px;
+    background-color: #a76b2f;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 10px 10px 10px 10px;
+       /* margin-top: 50px; */
+}
+.second{
+    background-color: #e4d1c0;
+
+}
+.parent{
+display: flex;
+justify-content: end;
+}
+.child1{
+width: 50%;
+margin: 50px 90px;
+margin-bottom:120px ;
+}
+.child2{
+    width: 50%;
+    margin-top: 210px;
+}
+.pic1{
+    position: relative;
+}
+.pic2{
+    position: absolute;
+    bottom: -620px;
+    /* top: 30px; */
+    left: 270px;
+}
+.third{
+/* background-image: ; */
+}
+.about{
+    display: flex;
+    margin-top:30px ;
+}
+.about h2{
+    font-size: 30px;
+}
+.child2 p{
+    margin: 15px;
+    text-align: left;
+    font-size: 17px;
+}
+.child2 h1{
+    color: #a76b2f;
+    font-size: 40px;
+}
+.third h1{
+    text-align: center;
+    margin-top: 100px;
+}
+.third-parent{
+display: flex;
+gap: 20px;
+margin-top: 50px;
+justify-content: center;
+/* grid-template-columns: 1fr 1fr 1fr 1fr; */
+}
+.fourth{
+    background-color: #e4d1c0;
+}
+.fourth h1{
+    color: #a76b35;
+    text-align: center;
+    margin-top: 100px;
+}
+.fourth-btn{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 40px;
+}
+.fourth-btn a{
+    border-radius: 20px;
+    border: 1px solid #715339;
+    padding: 10px 10px 10px 10px;
+    font-size: 17px;
+    text-decoration: none;
+    color: #715339;
+}
+.fourth-parent{
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+.sixth{
+    background-image: url(./images/Rectangle\ 4.png);
+    height: 400px;
+}
+.sixth h1{
+color: #fff;
+text-align: center;
+/* margin-top: 50px; */
+font-size: 40px;
+}
+.sixth p{
+color: #fff;
+/* text-align:center ; */
+margin-top: 90px;
+font-size: 30px;
+width: 50%;
+margin-left: 350px;
+}
+.seventh{
+    background-color: #e4d1c0;
+}
+.seventh-parent{
+    display: flex;
+}
+.seventh-child1{
+    width: 50%;
+    margin: 50px 100px;
+    margin-bottom: 140px;
+}
+.seventh-child2{
+    width: 50%;
+}
+.seventh-flex1{
+position: relative;
+}
+.seventh-flex2{
+    position: absolute;
+        left: 200px;
+    top: 3200px;
+}
+footer{
+    /* background-image: ; */
+    background-color: #715339;
+    /* margin-bottom: 100px; */
+}
+.ending{
+    margin:0 70px ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 1em;
+}
+.ending h2{
+margin-top: 50px;
+color: #917b64;
+font-size:20px ;
+}
+.ending strong{
+    color: #917b64;
+}
+.ending p{
+color: #917b64;
+ font-size: 19px;
+}
+.ending a{
+    color: #917b64;
+    text-decoration: none;
+   
+}
+.ending a:hover{
+    text-decoration: underline;
+}
+.end2{
+    display: flex;
+    flex-direction: column;
+}
+.end3{
+    display: flex;
+    flex-direction: column;
+}
+.end4{
+    display: flex;
+    flex-direction: column;
+}
+.end5{
+    display: flex;
+    flex-direction: column;
+}
