@@ -20,6 +20,7 @@ justify-content: end;
 
 nav{
 /* border: 2px solid black; */
+display: flex;
 border-radius: 35px;
 background-color: #715339;
 height: 70px;
@@ -28,12 +29,40 @@ margin-top: 20px;
 gap: 30px;
 }
 }
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #fff;
+    font-size:20px ;
+    font-weight: bold;
+    margin: 0 20px;
+}
+.logo-icon{
+    font-size: 22px;
+}
 nav a{
     text-decoration: none;
     padding: 20px 10px 20px 10px;
     color: #fff;
+    font-size: 17px;
+    font-weight: 500;
     /* text-align: center; */
     
+}
+.nav-links{
+    display: flex;
+align-items: center;
+gap: 35px;
+}
+.contact-btn{
+    background-color: #a76b35;
+    padding: 12px 22px;
+    border-radius: 25px;
+    border: 1px solid #917b64;
+}
+.contact-btn:hover{
+    background-color: #715339;
 }
 .first-text{
 margin:0 70px ;
@@ -63,7 +92,10 @@ margin-top: 120px;
     text-decoration: none;
     font-size: 17px;
     padding: 10px 10px 10px 10px;
-       /* margin-top: 50px; */
+     
+}
+.first-btn{
+  margin-top: 50px;
 }
 .second{
     background-color: #e4d1c0;
@@ -152,6 +184,7 @@ justify-content: center;
 .fifth{
 background-color: #e4d1c0;
 margin-top: 50px;
+
 }
 .fifth h1{
 color: #a76b2f;
@@ -161,15 +194,21 @@ margin-top: 50px;
 .fifth img{
 margin-top: 50px;
 }
+
 .sixth{
     background-image: url(./images/Rectangle\ 4.png);
-    height: 400px;
+    height: 500px;
 }
 .sixth h1{
 color: #fff;
 text-align: center;
-/* margin-top: 50px; */
+margin-top: 30px;
 font-size: 40px;
+padding-top: 60px;
+}
+.sixth img{
+margin-left: 640px;
+padding-top: 50px;
 }
 .sixth p{
 color: #fff;
@@ -199,7 +238,7 @@ position: relative;
 .seventh-flex2{
     position: absolute;
         left: 300px;
-    top: 3900px;
+    top: 4000px;
 }
 footer{
     /* background-image: ; */
